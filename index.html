@@ -14,48 +14,50 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <a href="/" class="navbar-brand">Whiskey Drop</a>
-
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2"><a href="/" class="nav-link">Home</a></li>
-                <li class="nav-item mr-2"><a href="/about" class="nav-link">About</a></li>
-                <li class="nav-item dropdown">
-                    <a href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false" class="nav-link dropdown-toggle">
-                        Whiskeys
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a href="#" class="dropdown-item">Irish</a>
-                        <a href="#" class="dropdown-item">Scottish</a>
-                        <a href="#" class="dropdown-item">Japanese</a>
-                        <a href="#" class="dropdown-item">American</a>
-                    </div>
-                </li>
-                <li class="nav-item mr-2 d-block d-sm-none"><a href="/login" class="nav-link">Sign In / Sign Up</a></li>
-            </ul>
-        </div>
-        <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
-            <a href="/login">Sign In / Sign Up</a>
-        </div>
-    </nav>
-    <!-- <div class="container alert-container">
+    <div class="container-fluid navalert-container">
+        <div class="container-fluid alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
-                <div class="alert alert-warning">
-                    <strong>Sale Now On!</strong> Get a 12-month subscription for the price of 6! <a href="">See here
-                        for details!</a>
+                <div class="sitewide-alert alert alert-warning">
+                    <strong>Sale Now On!</strong> Get a 12-month subscription for the price of 6! <a href="">Find out more :)</a>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a href="/" class="navbar-brand">Whiskey Drop</a>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a href="/" class="nav-link">Home</a></li>
+                    <li class="nav-item mr-2"><a href="/about" class="nav-link">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false" class="nav-link dropdown-toggle">
+                            Whiskeys
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a href="#" class="dropdown-item">Irish</a>
+                            <a href="#" class="dropdown-item">Scottish</a>
+                            <a href="#" class="dropdown-item">Japanese</a>
+                            <a href="#" class="dropdown-item">American</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mr-2 d-block d-sm-none"><a href="/login" class="nav-link">Sign In / Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
+                <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
+            </div>
+        </nav>
+    </div>
+    
     <!-- Callout -->
     <div class="callout-container container-fluid">
         <div class="opaque-overlay">&nbsp;</div>
