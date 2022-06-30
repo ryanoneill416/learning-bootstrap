@@ -2,9 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container-wrapper {
-}
-
 .container-wrapper--red {
     background: #f05f40;
     color: white;
@@ -45,6 +42,10 @@ body {
     position: relative;
 }
 
+.lead {
+    line-height: 37.5px;
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -54,12 +55,8 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quotes-container {
-
-}
-
-.features-container {
-
+.media {
+    margin-bottom: 30px;
 }
 
 /* Page headers */
@@ -89,6 +86,10 @@ body {
 
 .block-divider--short {
     width: 37.5px;
+}
+
+.block-divider--space {
+    margin-bottom: 45px;
 }
 
 .block-divider--white {
@@ -181,4 +182,24 @@ body {
 .feature {
     text-align: center;
     margin-bottom: 35px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.ftr-btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+.col-lg-4 .feature {
+    margin-bottom: 75px;
 }
